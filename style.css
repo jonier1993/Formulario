@@ -5,13 +5,11 @@ body {
 
 .blockPadre{
    text-align: center;
-    margin-top: 10%;
-    border: 2px solid black;
+    margin-top: 5%;
 }
 
 .blockHijo{
-    border: 2px solid red;
-    padding: 2%;
+    padding: 1%;
 }
 
 button { 

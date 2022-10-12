@@ -6,33 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formulario </title>
     <link rel="stylesheet" href="/style.css">
-    <script src="/app.js"></script>
+    <script src="/app.js" type="module"></script>
 </head>
 <body>    
     <div class="blockPadre">
         <h1> Formulario </h1>
         <form>
             <div class="blockHijo">
-                <label> Nombre &nbsp &nbsp &nbsp </label> <input type="text">
+                <label> Nombre &nbsp &nbsp &nbsp </label> <input type="text" id="name">
             </div>
             <div class="blockHijo">
-                <label> Apellido &nbsp &nbsp &nbsp </label> <input type="text">
+                <label> Apellido &nbsp &nbsp &nbsp </label> <input type="text" id="lastname">
             </div>
             <div class="blockHijo"> 
-                <labeL> Cedula &nbsp &nbsp &nbsp &nbsp </labeL> <input type="number">
+                <labeL> Cedula &nbsp &nbsp &nbsp &nbsp </labeL> <input type="number" id="idCard">
             </div>
             <div class="blockHijo">
-                <label> Correo &nbsp &nbsp &nbsp &nbsp  </label> <input type="email">
+                <label> Correo &nbsp &nbsp &nbsp &nbsp  </label> <input type="email" id="email">
             </div>
             <div class="blockHijo">
-                <label> Contraseña &nbsp  </label> <input type="password">
+                <label> Contraseña &nbsp  </label> <input type="text" id="password">
             </div>
             <div class="blockHijo">
                 <input type="checkbox"> Acepto
                 <input type="checkbox"> No Acepto
             </div>
             <div class="blockHijo">
-                <button type="submit"> Registrar </button> 
+                <button type="submit" id="btnRegistrar"> Registrar </button> 
             </div>
         </form> 
     </div>       
